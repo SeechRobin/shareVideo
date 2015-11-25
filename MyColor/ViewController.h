@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ChameleonFramework/Chameleon.h>
+#import <Accounts/Accounts.h>
+
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *view_color;
 
 @end
 

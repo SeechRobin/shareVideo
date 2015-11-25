@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9073E1841C059C5800439746 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9073E1831C059C5800439746 /* Social.framework */; };
+		9073E1871C05A35600439746 /* sample_mpeg4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9073E1861C05A35600439746 /* sample_mpeg4.mp4 */; };
+		9073E1881C05A35D00439746 /* sample_mpeg4.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = 9073E1861C05A35600439746 /* sample_mpeg4.mp4 */; };
+		9073E18A1C05B13300439746 /* SampleVideo_1080x720_1mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9073E1891C05B13300439746 /* SampleVideo_1080x720_1mb.mp4 */; };
+		9073E18C1C05B18C00439746 /* Sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9073E18B1C05B18C00439746 /* Sample.mp4 */; };
+		9073E18E1C05B73B00439746 /* Sample2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9073E18D1C05B73B00439746 /* Sample2.mp4 */; };
+		9073E1901C05BD8400439746 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9073E18F1C05BD8400439746 /* Twitter.framework */; };
+		907E336B1C047CB30065C758 /* TwitterAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 907E336A1C047CB30065C758 /* TwitterAPIManager.m */; };
 		909620C61C02F63D0021C055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909620C51C02F63D0021C055 /* main.m */; };
 		909620C91C02F63D0021C055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 909620C81C02F63D0021C055 /* AppDelegate.m */; };
 		909620CC1C02F63D0021C055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909620CB1C02F63D0021C055 /* ViewController.m */; };
 		909620CF1C02F63D0021C055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909620CD1C02F63D0021C055 /* Main.storyboard */; };
 		909620D11C02F63D0021C055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909620D01C02F63D0021C055 /* Assets.xcassets */; };
 		909620D41C02F63D0021C055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909620D21C02F63D0021C055 /* LaunchScreen.storyboard */; };
+		C7AF8C8BCC6597BFAC29358A /* libPods-MyColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C6065165A1FEB3CE6C379B /* libPods-MyColor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59C6065165A1FEB3CE6C379B /* libPods-MyColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9073E1831C059C5800439746 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9073E1861C05A35600439746 /* sample_mpeg4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_mpeg4.mp4; sourceTree = "<group>"; };
+		9073E1891C05B13300439746 /* SampleVideo_1080x720_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_1080x720_1mb.mp4; sourceTree = "<group>"; };
+		9073E18B1C05B18C00439746 /* Sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.mp4; sourceTree = "<group>"; };
+		9073E18D1C05B73B00439746 /* Sample2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample2.mp4; sourceTree = "<group>"; };
+		9073E18F1C05BD8400439746 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		907E33691C047CB30065C758 /* TwitterAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAPIManager.h; sourceTree = "<group>"; };
+		907E336A1C047CB30065C758 /* TwitterAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAPIManager.m; sourceTree = "<group>"; };
 		909620C11C02F63D0021C055 /* MyColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909620C51C02F63D0021C055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		909620C71C02F63D0021C055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +44,8 @@
 		909620D01C02F63D0021C055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909620D31C02F63D0021C055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		909620D51C02F63D0021C055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA90A099F8C00F3F7972F4D2 /* Pods-MyColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyColor/Pods-MyColor.debug.xcconfig"; sourceTree = "<group>"; };
+		CF94E76233A17EF2FE3CE32D /* Pods-MyColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyColor/Pods-MyColor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9073E1901C05BD8400439746 /* Twitter.framework in Frameworks */,
+				9073E1841C059C5800439746 /* Social.framework in Frameworks */,
+				C7AF8C8BCC6597BFAC29358A /* libPods-MyColor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43F8CACE1175EA96FDB51821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA90A099F8C00F3F7972F4D2 /* Pods-MyColor.debug.xcconfig */,
+				CF94E76233A17EF2FE3CE32D /* Pods-MyColor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4912ABFFCE9E2A194278624A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9073E18F1C05BD8400439746 /* Twitter.framework */,
+				9073E1831C059C5800439746 /* Social.framework */,
+				59C6065165A1FEB3CE6C379B /* libPods-MyColor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907E336C1C047EF20065C758 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				9073E18D1C05B73B00439746 /* Sample2.mp4 */,
+				9073E18B1C05B18C00439746 /* Sample.mp4 */,
+				9073E1891C05B13300439746 /* SampleVideo_1080x720_1mb.mp4 */,
+				9073E1861C05A35600439746 /* sample_mpeg4.mp4 */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
 		909620B81C02F63D0021C055 = {
 			isa = PBXGroup;
 			children = (
 				909620C31C02F63D0021C055 /* MyColor */,
 				909620C21C02F63D0021C055 /* Products */,
+				43F8CACE1175EA96FDB51821 /* Pods */,
+				4912ABFFCE9E2A194278624A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +113,12 @@
 		909620C31C02F63D0021C055 /* MyColor */ = {
 			isa = PBXGroup;
 			children = (
+				907E336C1C047EF20065C758 /* video */,
 				909620C71C02F63D0021C055 /* AppDelegate.h */,
 				909620C81C02F63D0021C055 /* AppDelegate.m */,
 				909620CA1C02F63D0021C055 /* ViewController.h */,
+				907E33691C047CB30065C758 /* TwitterAPIManager.h */,
+				907E336A1C047CB30065C758 /* TwitterAPIManager.m */,
 				909620CB1C02F63D0021C055 /* ViewController.m */,
 				909620CD1C02F63D0021C055 /* Main.storyboard */,
 				909620D01C02F63D0021C055 /* Assets.xcassets */,
@@ -86,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 909620D81C02F63D0021C055 /* Build configuration list for PBXNativeTarget "MyColor" */;
 			buildPhases = (
+				C88AB557BBD0D960C2AA1276 /* Check Pods Manifest.lock */,
 				909620BD1C02F63D0021C055 /* Sources */,
 				909620BE1C02F63D0021C055 /* Frameworks */,
 				909620BF1C02F63D0021C055 /* Resources */,
+				2171C08E064AB21FA7188833 /* Embed Pods Frameworks */,
+				8B544A8D03477656C53B337C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +171,7 @@
 				TargetAttributes = {
 					909620C01C02F63D0021C055 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C7Q7P49B78;
 					};
 				};
 			};
@@ -137,20 +199,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				909620D41C02F63D0021C055 /* LaunchScreen.storyboard in Resources */,
+				9073E1871C05A35600439746 /* sample_mpeg4.mp4 in Resources */,
+				9073E18A1C05B13300439746 /* SampleVideo_1080x720_1mb.mp4 in Resources */,
 				909620D11C02F63D0021C055 /* Assets.xcassets in Resources */,
+				9073E18E1C05B73B00439746 /* Sample2.mp4 in Resources */,
 				909620CF1C02F63D0021C055 /* Main.storyboard in Resources */,
+				9073E18C1C05B18C00439746 /* Sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2171C08E064AB21FA7188833 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyColor/Pods-MyColor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B544A8D03477656C53B337C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyColor/Pods-MyColor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88AB557BBD0D960C2AA1276 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		909620BD1C02F63D0021C055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9073E1881C05A35D00439746 /* sample_mpeg4.mp4 in Sources */,
 				909620CC1C02F63D0021C055 /* ViewController.m in Sources */,
 				909620C91C02F63D0021C055 /* AppDelegate.m in Sources */,
+				907E336B1C047CB30065C758 /* TwitterAPIManager.m in Sources */,
 				909620C61C02F63D0021C055 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +375,11 @@
 		};
 		909620D91C02F63D0021C055 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA90A099F8C00F3F7972F4D2 /* Pods-MyColor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RM.MyColor;
@@ -270,8 +389,11 @@
 		};
 		909620DA1C02F63D0021C055 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF94E76233A17EF2FE3CE32D /* Pods-MyColor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RM.MyColor;
@@ -298,6 +420,7 @@
 				909620DA1C02F63D0021C055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
